@@ -1,0 +1,115 @@
+﻿body {
+    /*border: solid 1px red;*/
+    padding: 0px;
+    margin: 0px 10px;
+}
+.mainbody {
+    /*border: solid 1px green;*/
+    display: flex;
+}
+    .leftNavigation {
+        /*border: solid 1px orangered;*/
+        margin: 2px;
+        width: 210px;
+        background-color: rgb(233, 232, 232);
+        display: inline-block;
+        padding: 2px;
+        }
+        button {
+            width: 200px;
+            height: 36px;
+            background-color: #EFF3F3;
+            margin: 2px;
+            padding: 2px;
+            border-radius: 4px;
+            border: 1px solid #BBBBBB;
+        }
+            button:hover {
+                Border: 1.5px solid #01BAEA;
+                box-shadow: #01BAEA;
+            }
+            button:active {
+                background-color: rgb();
+                border: solid 2px gray;
+                outline-color: lightgray;
+            }
+    .mainContent {
+        /*border: solid 1px orangered;*/
+        margin: 2px;
+
+    }
+        .contentMainGroup {
+            /*border: solid 1px green;*/
+            padding: 0px 0px 0px 2px;
+            margin: 2px;
+            width: 1000px;
+
+        }
+            .taskContainer {
+            /*border: solid 1px red;*/
+            display: inline-flex;
+            width: 100%;
+            justify-content: center;
+
+            }
+
+                .taskInnercontainer {
+                border: solid 1px black;
+                display: inline-block;
+                margin: 2px;
+                width: 10%;
+                text-align: center;
+
+                }
+                    .taskInnerContainerContent {
+                    display: inline-block;
+                    margin: 2px;
+                    text-align: left;
+                    font-size: smaller;
+
+                    }
+.contentViewer {
+    background-color: white;
+}
+.mainContent {
+}
+
+h1 {
+    /*border: 1px red solid;*/
+    background-color: orangered;
+    text-align: center;
+    margin: 2px;
+}
+
+h2 {
+    /*border: solid 1px red;*/
+    margin: 2px;
+}
+
+h3 {
+    /*border: solid 1px red;*/
+    margin: 2px;
+}
+
+h4 {
+    /*border: solid 1px red;*/
+    padding: 0px;
+    margin: 2px;
+}
+
+p {
+    /*border: 1px red solid;*/
+    padding: 0px;
+    margin: 2px;
+}
+
+.contentSeparater {
+    border: 1px solid black;
+}
+footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
